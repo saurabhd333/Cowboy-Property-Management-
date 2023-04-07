@@ -1,0 +1,49 @@
+	  body
+	  {
+		   flex: 1 1 auto;
+	  font-family: Arial;
+	  	  text-align: center;
+		   position: relative;        /* for the footer to move with the page size */
+    min-height: 100%;          /* for the footer to be at the bottom */
+    padding-bottom: 6rem;
+	  }
+	    th, td 
+	  {
+		padding: 20px;
+		}
+
+.btn-primary.custom-btn {
+	background-color: brown;
+	border-color: brown;
+}
+
+.header {
+	  color: brown;
+	  font-family: Arial;
+	  font-size: 150%;
+	  padding: 0px 0;
+	  text-align: center;
+	  }
+	  
+	  
+.buttonstopofpage {
+		  float: left;
+		  clear: both;
+		  margin-top: 55px;
+		  display: block;
+}
+.middlepageform {
+	text-align: center;
+}
+.footer {
+		  bottom: -100;
+		  position: absolute;
+		  padding: 0px 0;
+		  text-align: center;
+		  margin: auto;
+		  width: 100%;
+		}
+		html {
+    height: 100%;              /* for the page to take full window height */
+    box-sizing: border-box;    /* to have the footer displayed at the bottom of the page without scrolling see this site if you need this code again: https://stackoverflow.com/questions/18990675/how-to-fix-a-footer-overlapping-content*/
+}
